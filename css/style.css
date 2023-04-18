@@ -1,0 +1,30 @@
+.card {
+	background-color: #e73232;
+    border: 1px solid #070707;
+    box-shadow: 1px 1px #ccc;
+    display: inline-block;
+    height: 100px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .board {
+	position: center;
+    margin: 0 auto;
+    text-align: center;
+}
+body{
+	background-color: #534f4f;
+}
+h1{
+	text-align: center;
+	color: aliceblue;
+}
+#board {
+	 width: 800px; margin: 0 auto;
+	 border-radius: 50px; 
+	}

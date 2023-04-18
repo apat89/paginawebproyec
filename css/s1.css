@@ -1,0 +1,22 @@
+html{
+    background-color: rgb(212, 240, 253);
+}
+h1{
+    font-style: oblique;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(236, 235, 235);
+}
+form{
+    text-align: center;
+    background-color:rgb(236, 235, 235);
+}
+
+p{
+    text-align: center;
+    color: black;
+    background-color:rgb(236, 235, 235);
+}
+html.dark-mode{
+    filter: invert(100%);
+}

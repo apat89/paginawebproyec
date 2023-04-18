@@ -1,0 +1,68 @@
+html{
+  border-radius: 50px;
+}
+
+h1{
+  text-align: center;
+  color: #000000;
+}
+
+body{
+  background:rgb(194, 248, 194);
+}
+
+img{
+  height: 100px;
+  width: 250px;
+}
+
+#reproductor {
+    border-radius: 40px;
+    border: solid;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+    background-color: rgb(31, 253, 11);
+  }
+  
+  #botones {
+    margin-top: 30px;
+  }
+  
+  #botones button {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2a2b2a;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  #botones button:hover {
+    background-color: #ff4e4e;
+  }
+  
+  #barra {
+    margin-top: 20px;
+    height: 10px;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 26px;
+  }
+  
+  #progreso {
+    height: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+  } 
+
+  html.dark-mode{
+    filter: invert(100%);
+}

@@ -1,0 +1,22 @@
+html.dark-mode{
+    filter: invert(100%);
+}
+html{
+    background-color: rgb(190, 190, 190);
+}
+h1{
+    color: brown;
+    font: 400;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(127, 209, 230);
+}
+form{
+    text-align: center;
+    background-color: antiquewhite;
+}
+p{
+    text-align: center;
+    border:1px solid black;
+    padding:0 20px 0 0;    
+}
