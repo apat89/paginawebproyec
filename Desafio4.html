@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Reproductor de música</title>
+    <link rel="stylesheet" href="css/m.css">
+  </head>
+  <body>
+    <input
+    type="checkbox"
+    id="dark-mode"
+    onclick="document.documentElement.classList.toggle( 'dark-mode')"
+    />
+    <h1>Reproductor de música</h1>
+    <div id="reproductor">
+      <img src="imagen/image.png">
+      <audio id="audio" src="musica/y2mate.com - Se Amerita.mp3"></audio>
+      <div id="botones">
+        <button id="boton-reproducir" onclick="reproducir()">play</button>
+        <button id="boton-pausar" onclick="pausar()">stop</button>
+      </div>
+      <div id="barra">
+        <div id="progreso"></div>
+      </div>
+    </div>
+    <script src="js/music.js"></script>
+  </body>
+</html>

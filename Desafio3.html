@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="css/lis.css">
+  </head>
+  <body>
+    <input
+    type="checkbox"
+    id="dark-mode"
+    onclick="document.documentElement.classList.toggle( 'dark-mode')"
+    />
+    <h1>Lista de tareas</h1>
+    <form id="formulario">
+      <input type="text" id="tarea" placeholder="Agregar tarea...">
+      <button type="submit">Agregar</button>
+    </form>
+    <ul id="lista"></ul>
+    <script src="js/lista.js"></script>
+  </body>
+</html>
+
